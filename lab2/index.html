@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Білий О.С. ІМ-42, Лаб.2, Варіант 8</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .task1-table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px 0;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+
+        .task1-table td {
+            border: 2px solid #000;
+            padding: 15px;
+            text-align: center;
+            height: 30px;
+        }
+
+        .row-1 td {
+            background-color: #088f8f;
+            color: #ffffff;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .row-2 td {
+            background-color: #f5f508;
+            color: #000000;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .row-3 td {
+            background-color: #ffffff;
+        }
+
+        .row-1:hover td {
+            background-color: #f5f508;
+            color: #000000;
+        }
+
+        .row-2:hover td {
+            background-color: #088f8f;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <h2>Завдання 1.</h2>
+    <table class="task1-table">
+        <tr class="row-1">
+            <td>Білий</td>
+            <td>Олександр</td>
+            <td rowspan="2">Сергійович</td>
+            <td>&nbsp;</td>
+            <td rowspan="2">&nbsp;</td>
+        </tr>
+        <tr class="row-2">
+            <td colspan="2">ІМ-42</td>
+            <td>ЛР-2, Варіант 8</td>
+        </tr>
+        <tr class="row-3">
+            <td colspan="2">&nbsp;</td>
+            <td colspan="3">&nbsp;</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2>Завдання 2.</h2>
+    
+    <h3>1. За допомогою властивості position:</h3>
+    <div class="canvas position-canvas">
+        <div class="square pos-sq1"></div>
+        <div class="square pos-sq2"></div>
+    </div>
+
+    <h3>2. За допомогою властивості transform:</h3>
+    <div class="canvas transform-canvas">
+        <div class="square trans-sq1"></div>
+        <div class="square trans-sq2"></div>
+    </div>
+</body>
+</html>

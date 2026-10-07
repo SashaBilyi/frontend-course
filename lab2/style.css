@@ -1,0 +1,46 @@
+.canvas {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.square {
+    width: 120px;
+    height: 120px;
+    border: 6px solid #000;
+    border-radius: 20px;
+}
+
+.position-canvas {
+    position: relative;
+}
+
+.pos-sq1 {
+    background-color: #f4b183;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    z-index: 1;
+}
+
+.pos-sq2 {
+    background-color: rgba(188, 108, 126, 0.75);
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    z-index: 2;
+}
+
+.transform-canvas {
+    padding: 40px;
+}
+
+.trans-sq1 {
+    background-color: #f4b183;
+    transform: translate(0, 0);
+}
+
+.trans-sq2 {
+    background-color: rgba(188, 108, 126, 0.75);
+    transform: translate(60px, -72px);
+}
