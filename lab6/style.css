@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.header-controls {
+    text-align: center;
+    background-color: #7b8388;
+    padding: 20px;
+    border-bottom: 2px solid #555;
+}
+
+#downloadBtn {
+    padding: 10px 30px;
+    background-color: #3b4249;
+    color: white;
+    border: 1px solid #222;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#statusMsg {
+    margin-top: 15px;
+    font-size: 28px;
+    color: #222;
+    margin-bottom: 0;
+}
+
+.users-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #3b4249;
+    color: #e0e0e0;
+    padding: 20px;
+    justify-content: center;
+}
+
+.user-card {
+    flex: 1;
+    min-width: 180px;
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.user-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.user-info p {
+    margin: 8px 0;
+    font-size: 14px;
+    line-height: 1.5;
+}
