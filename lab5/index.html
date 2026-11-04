@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Білий О.С. ІМ-42, Лаб.5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="task-container">
+        <h2>Завдання 1.</h2>
+        <div class="form-wrapper">
+            <form id="myForm">
+                <div class="input-group">
+                    <input type="text" id="pib" placeholder="ПІБ (ТТТТТТ Т.Т.)">
+                </div>
+                <div class="input-group">
+                    <input type="text" id="group" placeholder="Група (ТТ-44)">
+                </div>
+                <div class="input-group">
+                    <input type="text" id="idcard" placeholder="ID-card (ТТ №444444)">
+                </div>
+                <div class="input-group">
+                    <input type="text" id="dob" placeholder="Дата народж. (44.44.4444)">
+                </div>
+                <div class="input-group">
+                    <input type="text" id="email" placeholder="e-mail (ТТТТТТ@ТТТТТ.com)">
+                </div>
+                <button type="button" id="submitBtn">Підтвердити</button>
+            </form>
+            <div id="output">
+                <h3>Введені дані:</h3>
+                <div id="output-data"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="task-container">
+        <h2>Завдання 2.</h2>
+        <p>Варіант 8: Зміна кольору стовпців таблиці, починаючи з обраного, через один.</p>
+        <input type="color" id="colorPicker" value="#ff0000" title="Оберіть колір для кліку">
+        <table id="gridTable">
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
